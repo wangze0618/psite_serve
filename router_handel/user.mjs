@@ -67,7 +67,7 @@ export const userLogin = (req, res) => {
       res.send({
         status: 0,
         message: "登录成功",
-        token: `Bearer ${token}`,
+        data: `Bearer ${token}`,
       });
     }
   });
